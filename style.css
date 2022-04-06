@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+   /*  background-color: #131313; */
+   background-image: url('./img/background_v4.png'); 
+     background-size: cover;  
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+   /*  z-index: 2; */
+}
+
+#myCanvas{
+    position:absolute;
+    z-index: 1;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    bottom: 10%;
+    left: 40%;
+    z-index: 22;
+   
+}
+.cap{
+    margin-bottom: 50px;
+}
+
